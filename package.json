@@ -1,0 +1,12 @@
+{
+  "name": "jev-demo-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo application for Jev Build Sentinel: 157 tests, ~2.5m full suite.",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.0"
+  }
+}

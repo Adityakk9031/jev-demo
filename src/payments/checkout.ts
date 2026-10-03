@@ -17,3 +17,5 @@ export function roundTo(value: number, digits: number): number {
 export function percentOf(part: number, total: number): number {
   return total === 0 ? 0 : roundTo((part / total) * 100, 2);
 }
+
+// Sentinel demo 2: clamp refund totals to instrumented bounds

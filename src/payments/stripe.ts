@@ -11,3 +11,5 @@ export function normalizeId(raw: string): string {
 export function isValidId(raw: string): boolean {
   return /^[a-z0-9]+(-[a-z0-9]+)*$/.test(raw.trim().toLowerCase());
 }
+
+// Sentinel demo 2: tighten payment validation (touches payments domain)

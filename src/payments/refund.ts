@@ -18,3 +18,5 @@ export function maskEmail(email: string): string {
   if (at <= 0) return '***';
   return email[0] + '***' + email.slice(at);
 }
+
+// Sentinel demo 2: mask masked emails consistently in refund flow

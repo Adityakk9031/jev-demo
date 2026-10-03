@@ -11,3 +11,5 @@ A small application used to demo **Jev Build Sentinel**: `157` tests that take
 
 Scenarios: edit `README.md` (SKIP), touch `src/payments/*` (TARGETED), add a
 `db/migrations/*.sql` file (FULL - never optimized).
+
+- Ship faster: CI picks the minimum safe verification for every PR.
